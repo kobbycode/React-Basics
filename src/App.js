@@ -2,7 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return <h1>Hello World!!</h1>;
+  function formatUsername(userName) {
+    return userName.toUpperCase();
+  }
+  const name = 'Alex Ofori';
+  const output = <h1>Hello {formatUsername(name)} !!!!</h1>;
+
+  return output;
 }
 
 export default App;
