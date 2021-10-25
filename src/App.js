@@ -13,7 +13,15 @@ function App() {
   }
   const profilePicture = '/logo512.png';
   const image = <img src={profilePicture} alt="logo" />;
-  return image;
+
+  const name = 'Alex Ofori';
+  const outputEl = (
+    <div>
+      <h1>Hello {name}</h1>
+      <p>I am glad to have you !</p>
+    </div>
+  );
+  return outputEl;
 }
 
 export default App;
