@@ -19,6 +19,7 @@ function App() {
     <div>
       <h1>Hello {name}</h1>
       <p>I am glad to have you !</p>
+      {image}
     </div>
   );
   return outputEl;
