@@ -11,7 +11,8 @@ function App() {
       return <h2>Hi This is a wrong user!</h2>;
     }
   }
-  return Greetings('Samuel Danso');
+  const image = <img src="/logo512.png" alt="Logo" />;
+  return image;
 }
 
 export default App;
