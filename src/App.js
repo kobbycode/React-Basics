@@ -11,7 +11,8 @@ function App() {
       return <h2>Hi This is a wrong user!</h2>;
     }
   }
-  const image = <img src="/logo512.png" alt="Logo" />;
+  const profilePicture = '/logo512.png';
+  const image = <img src={profilePicture} alt="logo" />;
   return image;
 }
 
