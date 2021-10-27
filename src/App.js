@@ -1,9 +1,12 @@
 import './App.css';
-import Greetings from './Greetings';
-import Writing from './Writing';
+import Time from './Time';
 
 function App() {
-  return (<Greetings name="Kofi" />), (<Writing writing="React class" />);
+  return (
+    <div>
+      <Time date={new Date()} />
+    </div>
+  );
 }
 
 export default App;
